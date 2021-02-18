@@ -1,0 +1,87 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'bsctestnet'
+> Network id:      97
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x5b4be4d89adcc4b5cc6dcef6ba93db17b131a58a13eb0221870b103a2f62cdc9
+   > Blocks: 3            Seconds: 10
+   > contract address:    0xB6565515e82c460f6457633F9D03568dfb23d450
+   > block number:        6393743
+   > block timestamp:     1613649128
+   > account:             0x95BBef5019Ecf57c2e6FE0609165cc34d961aF10
+   > balance:             5.97901816
+   > gas used:            220035 (0x35b83)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0044007 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6393747)
+   > confirmation number: 3 (block: 6393748)
+   > confirmation number: 4 (block: 6393749)
+   > confirmation number: 6 (block: 6393751)
+   > confirmation number: 7 (block: 6393752)
+   > confirmation number: 8 (block: 6393753)
+   > confirmation number: 9 (block: 6393754)
+   > confirmation number: 11 (block: 6393756)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0044007 ETH
+
+
+1519574947_ethereum_did_registry.js
+===================================
+
+   Deploying 'EthereumDIDRegistry'
+   -------------------------------
+   > transaction hash:    0x7e8498fa7ff984103deb37cab26929a215c6d6b97a5e2e123a062f60a05fa1f3
+   > Blocks: 3            Seconds: 10
+   > contract address:    0xB50ea5d3045462C85F9DA4414Ad9DbF8227B298D
+   > block number:        6393765
+   > block timestamp:     1613649194
+   > account:             0x95BBef5019Ecf57c2e6FE0609165cc34d961aF10
+   > balance:             5.94289394
+   > gas used:            1763851 (0x1aea0b)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03527702 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 6393769)
+   > confirmation number: 3 (block: 6393770)
+   > confirmation number: 4 (block: 6393771)
+   > confirmation number: 6 (block: 6393773)
+   > confirmation number: 7 (block: 6393774)
+   > confirmation number: 8 (block: 6393775)
+   > confirmation number: 10 (block: 6393777)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.03527702 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.03967772 ETH
+
+
