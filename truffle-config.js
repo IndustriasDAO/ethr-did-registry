@@ -13,7 +13,7 @@ module.exports = {
       currency: 'USD'
     }
   },
-  plugins: ["truffle-contract-size"],
+  plugins: ["@chainsafe/truffle-plugin-abigen"],
   networks: {
     bsctestnet: {
       provider: () => new HDWalletProvider(process.env.BSC_MNEMONIC, process.env.BSC_TESTNET),
